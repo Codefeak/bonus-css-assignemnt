@@ -1,0 +1,192 @@
+body{
+    font-family: sans-serif;
+    
+}
+
+.main-container{
+    width:80vw;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.header-container{
+    background-color: #333333;
+    color:#FFFFFF;
+}
+
+header{
+    width:70vw;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 1.5vw;
+    display:flex;
+    flex-direction: row;
+}
+
+header figure:first-child{
+    margin:0;
+    width:10vw;
+    height: 3vw;
+    padding-top: 1vw;
+    display:flex;
+    flex-direction:row;
+    margin-right: 10vw;
+}
+
+header figure:first-child img{
+    width:2vw;
+    height:2vw;
+    margin:0.2vw;
+}
+header figure:nth-child(2){
+    width:40vw;
+}
+
+header figure:nth-child(2) img{
+    height: 3vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 16vw;
+}
+
+header section{
+    width:7vw;
+    height:3vw;
+    margin-left:8vw;
+    padding-top:2vw;
+    display:flex;
+    flex-direction:row;
+    text-align:right;
+}
+
+header section p{
+    height:1vw;
+    margin-top:0.2vw;
+    margin-bottom: 0;
+    color:#FFFFFF;
+    text-transform:uppercase;
+    font-size: 0.8vw;
+    letter-spacing: 0.15vw;
+}
+
+header section img{
+    width:1.5vw;
+    height:1.5vw;
+    margin-left: 1.2vw;
+}
+
+hr{
+    width: 70vw;
+    border: 0.03vw solid #444444;
+    background-color: #444444;
+}
+
+menu{
+    width: 70vw;
+    margin:0;
+    padding:0;
+    margin-top:1.25vw;
+    margin-bottom:3vw;
+}
+
+menu ul{
+    width:40vw;
+    margin:0 auto 0 auto;
+    padding:0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: center;
+}
+
+menu ul li{
+    width:6vw;
+    text-transform: capitalize;
+    font-size:1vw;
+    font-weight: 500;
+    color:#808080;
+}
+
+menu ul li:nth-child(2)::after{
+    content:"v";
+    margin-left:0.2vw;
+    font-size: 0.7vw;
+}
+
+menu ul li:nth-child(3)::after{
+    content:"v";
+    margin-left:0.2vw;
+    font-size: 0.7vw;
+}
+
+
+
+.banner-container-1{
+    width:70vw;
+    margin:0 auto;
+    display:flex;
+    flex-direction:row;
+}   
+
+.banner-left{
+    width: 45vw;
+    height: 45vw;
+    background-image: url(images/guitarman-400.jpg);
+    background-size: cover;
+    vertical-align: bottom;
+}
+
+.banner-left section{
+    width:35vw;
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.banner-left section img{
+    width:2vw;
+    height:2vw;
+    border-radius: 50%;
+}
+
+.banner-left button{
+    background-color:#b2aeec;
+    border: none;
+    color:#FFFFFF;
+    font-size: 0.65vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 5vw;
+    height: 1.5vw;
+    letter-spacing: 0.03vw;
+    border-style: none;
+    margin: 0;
+}
+
+.banner-left section p, .banner-right div p{
+    height:1vw;
+    margin: 0.5vw 1vw;
+    vertical-align: middle;
+    font-size:1vw;
+    font-weight: 500;
+    color:#808080;
+}
+
+.banner-right{
+    width:30vw;
+}
+
+.banner-right div:first-child{
+    width:30vw;
+    height:22.5vw;
+    background-image: url(images/beetle-400.jpg);
+    background-size: cover;
+}
+
+.banner-right div:last-child{
+    width:30vw;
+    height:22.5vw;
+    background-image: url(images/guitarman-400.jpg);
+    background-size: cover;
+}
