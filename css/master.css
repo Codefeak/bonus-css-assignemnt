@@ -10,8 +10,10 @@ body{
 }
 
 .header-container{
-    background-color: #191919;
-    color:#FFFFFF;
+  background-blend-mode: color-dodge;
+  background-color: #0e0e0e;
+  background-image: url(images/hero-bg.jpg);
+  color:#FFFFFF;
 }
 
 header{
@@ -92,7 +94,7 @@ header section img:hover{
 
 .header-container hr{
     width: 70vw;
-    border: 0.03vw solid #444444;
+    border: 0.04vw solid #271c1c;
     background-color: #444444;
 }
 
@@ -556,7 +558,7 @@ nav ul li a:hover{
   grid-row: 2 ;
   grid-column: span 2;
   display:grid;
-  margin:  3vw;
+  margin:  2vw;
 
 }
 
@@ -580,12 +582,15 @@ nav ul li a:hover{
 
 .tags ul{
   grid-row:2;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   text-align: center;
 }
 
 .tags ul li{
-  display: inline-grid;
-
+  margin: 1vw;
+  list-style: none;
 }
 
 .tags ul li a{
@@ -593,7 +598,7 @@ nav ul li a:hover{
   color:#444444;
   padding: 0.5vw 1vw;
   background-color:#f2f2f2;
-  margin:0.5vw 1.5vw;
+  margin:0.5vw;
   text-transform: uppercase;
   font-weight: 800;
   font-size: 1vw;
